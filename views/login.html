@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/log_in.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../assets/logo.png" />
+        <h3>GetWheels</h3>
+      </div>
+
+      <div class="h_links">
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="car_list.html">Car List</a>
+        <a href="faqs.html">FAQs</a>
+      </div>
+
+      <a href="./login.html">
+        <div class="login_ic">
+          <img src="../assets/ic_user.svg" />
+          username
+        </div>
+      </a>
+    </header>
+    <div class="sec1">
+      <div class="login-container">
+        <div class="details-container">
+          <div class="frame-5">
+            <h2>Log in</h2>
+            <p>and start booking with us</p>
+          </div>
+
+          <form>
+            <label for="username">Username:</label>
+            <input type="text" name="username" placeholder="Username"/>
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Password"/>
+            <p>Don't have an account? Click <a href="sign_up.html" class="signup">here</a>.</p>
+            <input type="button" onclick="window.location.href='index.html';" value="Log in" class="login">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
