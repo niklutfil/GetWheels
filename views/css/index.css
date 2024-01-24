@@ -13,18 +13,23 @@
     }
 
     .sec1_c {
-        padding-left: 80px;
+        padding-left: 200px;
     }
 
 
     button {
         display: flex;
-        padding: 10px 20px;
+        padding: 20px 40px;
         border: 0px;
-        border-radius: 25px;
+        border-radius: 30px;
         background: #2C3EDC;
         justify-self: center;
         margin-bottom: 80px;
+        transition: 300ms;
+
+        &:hover{
+            scale: 1.05;
+        }
     }
 
     a {
