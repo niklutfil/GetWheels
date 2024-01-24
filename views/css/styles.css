@@ -1,0 +1,134 @@
+body,
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+h4 {
+    font-size: 38px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+
+header {
+    width: calc(100vw - 40px);
+    background: #5768FD;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px;
+
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    img {
+        max-height: 40px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        h3 {
+            margin: 0;
+        }
+    }
+
+
+    .login_ic {
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 5px 10px;
+        border: #5768FD 1px solid;
+
+        img {
+            max-height: 40px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            border-radius: 10px;
+
+            border: #2C3EDC 1px solid;
+        }
+    }
+
+    .h_links {
+        >* {
+            margin: 0 20px;
+            padding: 10px 20px;
+            color: rgb(243, 243, 243);
+            font-weight: 600;
+        }
+
+        >*:hover {
+            border-bottom: #fff 1px solid;
+        }
+
+    }
+}
+
+
+footer {
+    min-height:100px;
+    background: #5768FD;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+
+    .f_links {
+        width: 80%;
+        padding: 10px 0;
+        margin: 10px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        border-bottom: 1px #fff solid;
+
+        >*{
+            padding: 10px;
+            margin: 0 20px;
+            
+            border-bottom: 1px #5768FD solid;
+            
+            &:hover{
+                border-bottom: 1px #fff solid;
+            }
+        }
+        
+
+    }
+
+    a {
+        color: white;
+    }
+}
