@@ -3,7 +3,7 @@ h2 {
     width: calc(100% - 100px);
 }
 
-a{
+a {
     color: #000;
 }
 
@@ -43,7 +43,7 @@ a{
         height: auto;
     }
 
-    &:hover{
+    &:hover {
         cursor: pointer;
         scale: 1.05;
     }
@@ -77,4 +77,33 @@ a{
     font-size: 20px;
     line-height: 25px;
     font-weight: 300;
+}
+
+.review_btn {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+
+    a {
+        border: 1px #5768FD solid;
+        padding: 20px 50px;
+        border-radius: 15px;
+        transition: 500ms;
+
+        &:hover {
+            background-color: #5768FD;
+
+            h2 {
+                color: #fff;
+            }
+        }
+
+        h2 {
+            color: #5768FD;
+            width: auto;
+            margin: 0;
+            font-weight: 600;
+        }
+    }
 }
