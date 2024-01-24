@@ -1,0 +1,221 @@
+h2 {
+    margin: 30px;
+    color: #1A2CCE;
+}
+
+.sec1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sec1_c {
+        width: 70vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px #000 solid;
+        border-radius: 25px;
+        margin-bottom: 80px;
+        padding: 20px;
+
+
+        color: #1A2CCE;
+
+        >* {
+            margin: 60px 20px;
+        }
+
+        img {
+            border-radius: 25px;
+            width: 50%;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 50px;
+            max-width: 50ch;
+        }
+
+
+    }
+}
+
+.sec2 {
+    background: #5768FD;
+    width: 100vw;
+    min-height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+
+    -webkit-box-shadow: 0px 10px 74px -13px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0px 10px 74px -13px rgba(0, 0, 0, 0.53);
+    box-shadow: 0px 10px 74px -13px rgba(0, 0, 0, 0.53);
+
+    .sec2_c {
+        height: 60%;
+        width: 95%;
+        background: rgba(255, 255, 255, 0.9);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border: #000000 0px solid;
+        border-radius: 30px;
+        padding-bottom: 40px;
+
+        .sec2_i {
+            width: 80%;
+            padding: 10px 10px;
+            border: #000 1px solid;
+            border-radius: 25px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 20px;
+
+
+            img {
+                height: 70px;
+                margin: 10px 30px;
+
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+
+    }
+
+}
+
+.sec3 {
+    width: 100vw;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+    color: #1A2CCE;
+
+    .sec3_c {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 50px;
+
+        .sec3_i {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    #sec3_i1 {
+        border-right: #5768FD solid 2px;
+    }
+
+    h5 {
+        font-weight: 700;
+    }
+
+    p {
+        max-width: 38ch;
+        line-height: 50px;
+    }
+
+
+}
+
+.sec4 {
+    width: calc(100vw - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    .sec4_c {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 50px 100px;
+
+        border: #000 0px solid;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.53);
+        box-shadow: 0px 0px 26px -1px rgba(0, 0, 0, 0.53);
+    }
+
+    .sec4_cc {
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec4_i {
+        display: flex;
+        flex-direction: row;
+        width: 38%;
+        border: 1px #999 solid;
+        border-radius: 25px;
+        margin: 1%;
+        padding: 40px;
+        transition: 300ms;
+
+        &:hover {
+            cursor: pointer;
+            scale: 1.03;
+        }
+    }
+
+    .sec4_i_desc {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+
+        p {
+            margin: 0;
+            color: #1A2CCE;
+        }
+    }
+
+    img {
+        height: 150px;
+        border-radius: 25px;
+    }
+
+    #name {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 20px;
+
+    }
+
+    #pos {
+        font-size: 21px;
+        font-style: italic;
+    }
+
+    #desc {
+        font-size: 18px;
+        max-width: 40ch;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+}
