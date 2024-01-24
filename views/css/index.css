@@ -1,0 +1,133 @@
+.sec_1 {
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 100vw;
+        position: absolute;
+        opacity: 0.5;
+        z-index: -1;
+    }
+
+    .sec1_c {
+        padding-left: 80px;
+    }
+
+
+    button {
+        display: flex;
+        padding: 10px 20px;
+        border: 0px;
+        border-radius: 25px;
+        background: #2C3EDC;
+        justify-self: center;
+        margin-bottom: 80px;
+    }
+
+    a {
+        font-size: 20px;
+        color: white
+    }
+
+}
+
+
+.sec_2 {
+
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .bezza {
+        text-align: center;
+    }
+
+    .sales_container {
+        display: flex;
+        min-height: 400px;
+        margin-bottom: 50px;
+
+        h2 {
+            padding-left: 100px;
+        }
+    }
+
+}
+
+
+.sec_3 {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+
+    .sec3_c {
+        width: calc(100% - 100px);
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        padding: 0 50px;
+
+        flex-direction: column;
+
+
+        h2 {
+            color: white;
+            font-weight: 400;
+        }
+
+        h5{
+            margin: 0;
+            color: white;
+        }
+    }
+
+    img {
+        position: absolute;
+        width: 100vw;
+        top: -600px;
+        left: 0;
+        z-index: -1;
+
+    }
+
+    form{
+        color: white;
+
+        .mail_div{
+            margin: 10px 0;
+            display: flex;
+            input{
+                padding: 15px;
+                outline: none;
+                border: 0;                 
+                border-radius: 10px;
+            }
+
+            input[type=text]{
+                min-width: 80%;
+                background: white;
+                font-size: 16px;
+
+            }
+            input[type=submit]{
+                width: 150px;
+                font-size: 24px;
+                margin: 0 10px;
+                background: #5768FD;
+                color: white;
+
+                &:hover{
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+}
