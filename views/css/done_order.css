@@ -1,0 +1,26 @@
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.sec1c {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec1c img {
+    border-radius: 25px;
+    display: block; /* Ensure the image is a block element for centering */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.sec1c p {
+    font-size: 28px;
+}

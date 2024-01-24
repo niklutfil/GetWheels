@@ -1,0 +1,27 @@
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    height: 93vh;
+    margin: 0 200px 0 100px;
+    padding:50px;
+    font-size: 24px;
+}
+
+.sec1 h2 {
+    color: #2C3EDC;
+    margin: 0;
+}
+
+.sec1 p {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    font-size: 24px;
+}
+
+.sec1i strong {
+    font-size: 24px;
+    padding: 10p;
+}
