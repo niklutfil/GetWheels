@@ -10,25 +10,26 @@
 
     justify-content: center;
 
-    p, li{    
+    p,
+    li {
         max-width: 65ch;
     }
-    
-    a{text-decoration: underline;}
 
+    a {
+        text-decoration: underline;
+        color: #5768fd;
+    }
 }
 
 .sec1 h2 {
     color: #2C3EDC;
 }
 
-.sec1 ol ul li{
+.sec1 ol ul li {
     margin: 10px;
     list-style-type: disc;
 }
 
-.sec1 ol li{
-  
+.sec1 ol li {
     margin: 30px;
 }
-
