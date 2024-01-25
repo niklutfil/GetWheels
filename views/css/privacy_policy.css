@@ -16,12 +16,12 @@
 }
 
 .sec1 p {
+    text-align: justify;
     max-width: 65ch;
 }
 
 .sec1i {
     font-size: 24px;
-    padding: 10p;
     max-width: 65ch;
 }
 .sec1c {
