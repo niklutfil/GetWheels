@@ -3,25 +3,27 @@
     flex-direction: row;
     justify-content: left;
     align-items: left;
-    height: 93vh;
+    min-height: 100vh;
     margin: 0 200px 0 100px;
     padding:50px;
     font-size: 24px;
+
+    justify-content: center;
 }
 
 .sec1 h2 {
     color: #2C3EDC;
-    margin: 0;
 }
 
 .sec1 p {
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    font-size: 24px;
+    max-width: 65ch;
 }
 
-.sec1i strong {
+.sec1i {
     font-size: 24px;
     padding: 10p;
+    max-width: 65ch;
+}
+.sec1c {
+    max-width: 65ch;
 }
