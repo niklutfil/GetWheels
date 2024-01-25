@@ -3,16 +3,32 @@
     flex-direction: row;
     justify-content: left;
     align-items: left;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 200px 0 100px;
     padding: 50px;
     font-size: 24px;
+
+    justify-content: center;
+
+    p, li{    
+        max-width: 65ch;
+    }
+    
+    a{text-decoration: underline;}
+
 }
 
 .sec1 h2 {
     color: #2C3EDC;
-    margin: 0;
 }
-.sec1 p ul{
-    margin: 0;
+
+.sec1 ol ul li{
+    margin: 10px;
+    list-style-type: disc;
 }
+
+.sec1 ol li{
+  
+    margin: 30px;
+}
+
