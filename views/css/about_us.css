@@ -218,4 +218,9 @@ h2 {
         line-height: 25px;
         margin-top: 10px;
     }
+
+    a{
+        color:#1A2CCE;
+        text-decoration: underline;
+    }
 }
