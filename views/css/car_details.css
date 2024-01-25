@@ -30,10 +30,37 @@ p{
     align-items: center;
     border: 1px #000 solid;
     border-radius: 25px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     padding: 10px 30px;
 
     >*{
-        margin:50px;
+        margin:20px;
+        width: 50%;
     }
 }
+
+.order_btn_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button{
+        color: #5768fd;
+        background: none;
+        border: #5768fd 1px solid;
+        padding: 20px 40px;
+        font-size: 24px;
+        transition: 350ms;
+        border-radius: 10px;
+
+        &:hover{
+            cursor: pointer;
+            background-color: #5768fd;
+            color: #fff;
+        }
+
+    }
+}
+
+
